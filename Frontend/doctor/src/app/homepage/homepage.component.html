@@ -1,0 +1,240 @@
+<div style="padding-left: 8rem;">
+  <mat-toolbar
+    style="background: transparent; margin-top: 0.5rem; padding-right: 4rem"
+  >
+    <div></div>
+    <img
+      src="../../assets/images/logo3.png"
+      alt="logo"
+      style="height: 125px; width: 125px; margin-top: -10px"
+    />
+    <span
+      style="
+        font-family: GTWalsheimProBlack !important;
+        font-weight: bold;
+        font-size: 40px;
+        color: #fa4c4c;
+        padding-left: 0.3rem;
+      "
+    >
+      Health
+    </span>
+
+    <span
+      style="
+        font-family: GTWalsheimProBlack !important;
+        font-weight: bold;
+        font-size: 40px;
+        color: #155dd0;
+        padding-left: 0.5rem;
+      "
+    >
+      Booking
+    </span>
+
+    <span class="example-spacer"></span>
+    <button mat-raised-button class="header-text" style="margin-right: 1rem">
+      <span class="fontb"> Home </span>
+    </button>
+    <button mat-raised-button class="header-text" style="margin-right: 1rem">
+      <span class="fontb"> Infomation </span>
+    </button>
+    <button mat-raised-button class="header-text" style="margin-right: 1rem">
+      <span class="fontb"> Contact Us </span>
+    </button>
+    <button
+      style="margin-right: 5rem; box-shadow: 3px; background-color: #183e9f"
+      mat-raised-button
+    >
+      <a style="text-decoration: none" routerLink="['/register']">
+        <span style="color: white; font-size: 20px" class="fontb"
+          >Login/Register</span
+        >
+      </a>
+    </button>
+  </mat-toolbar>
+</div>
+
+<mat-grid-list style="margin-top: 4rem" cols="5" rowHeight="3:5">
+  <mat-grid-tile colspan="3">
+    <div style="position: absolute; padding-bottom: 9rem">
+      <span class="fontB" style="font-size: 43px; padding-bottom: 10rem">
+        WE
+      </span>
+      <span class="fontB" style="font-size: 43px; padding-bottom: 10rem">
+        CARE
+      </span>
+      <span class="fontB" style="font-size: 43px; padding-bottom: 10rem">
+        ABOUT YOUR
+      </span>
+      <span
+        class="fontB"
+        style="font-size: 43px; padding-bottom: 10rem; color: #f03d3d"
+      >
+        HEALTH <br /><br />
+      </span>
+    </div>
+    <div style="position: absolute">
+      <p style="font-size: 23px; font-weight: bold">
+        Easily booking appointment with our doctors and experts<br /><br /><br /><br />
+      </p>
+    </div>
+    <div style="position: absolute; padding-top: 15rem">
+      <div class="buttons">
+        <button class="blob-btn">
+          <span
+            style="font-size: 30px; font-family: GTWalsheimProBold !important"
+          >
+            BOOKING NOW
+          </span>
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+        <br />
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur
+                in="SourceGraphic"
+                result="blur"
+                stdDeviation="10"
+              ></feGaussianBlur>
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                result="goo"
+              ></feColorMatrix>
+              <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+            </filter>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="2">
+    <div
+      style="justify-content: center"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-sine"
+    >
+      <img
+        src="../../assets/images/doctor2.png"
+        style="width: 650px; height: 650px; margin-right: 3rem"
+      />
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="6" style="margin-top: 4rem; margin-left: 1rem;">
+  <mat-grid-tile
+    colspan="1"
+    rowspan="1"
+    style="margin-top: 20rem; margin-left: 15rem; margin-right: 15rem"
+  >
+    <div
+      style="justify-content: center"
+      data-aos="zoom-in"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-sine"
+    >
+    <div style="display: inline; ">
+      <img style="display: block;padding-left: 5rem;" src="../../assets/images/AI1.png" />
+      <h2 style="margin-top: 2rem;font-weight: bold; text-align: center ;">Disease Prediction System</h2>
+    </div>
+      </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile
+    colspan="1"
+    rowspan="1"
+    style="margin-top: 17rem; margin-left: 15rem; margin-right: 15rem"
+  >
+    <div
+      style="justify-content: center"
+      data-aos="zoom-in"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-sine"
+    >
+      <div style="display: inline;">
+        <img style="display: block;padding-left: 5rem;" src="../../assets/images/appointment1.png" />
+        <h2 style="margin-top: 2rem;font-weight: bold; text-align: center">Online & Fast Appointment</h2>
+      </div>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile
+    colspan="1"
+    rowspan="1"
+    style="margin-top: 17rem; margin-left: 15rem; margin-right: 15rem"
+  >
+    <div
+      style="justify-content: center"
+      data-aos="zoom-in"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-sine"
+    >
+    <div style="display: inline;">
+      <img style="display: block;padding-left: 5rem;" src="../../assets/images/chat1.png" />
+      <h2 style="margin-top: 2rem;font-weight: bold; text-align: center">Online Chat With Our Doctors</h2>
+    </div>
+      </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile
+  colspan="1"
+  rowspan="1"
+  style="margin-top: 17rem; margin-left: 15rem; margin-right: 15rem"
+>
+  <div
+    style="justify-content: center"
+    data-aos="zoom-in"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-sine"
+  >
+  <div style="display: inline;">
+    <img style="display: block;padding-left: 5rem;" src="../../assets/images/info.png" />
+    <h2 style="margin-top: 2rem;font-weight: bold; text-align: center">More Information About Diseases</h2>
+  </div>
+    </div>
+</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" style="margin-left: 3rem; margin-top: 2rem;">
+  <mat-grid-tile [colspan]="2">
+
+    <div
+      style="justify-content: center;"
+      data-aos="fade-right"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-sine"
+    >
+      <img
+        src="../../assets/images/doctor4.png"
+      />
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="2">
+
+    <div
+      style="justify-content: center;"
+      data-aos="fade-left"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-sine"
+    >
+      <img
+        src="../../assets/images/doctor3.png"
+      />
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
+
